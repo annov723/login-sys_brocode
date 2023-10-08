@@ -5,6 +5,7 @@ public class Main {
 		
 		Passwords pass = new Passwords();
 		
+		LoginPage login = new LoginPage( pass.getlogininfo() ); //sends HashMap to LoginPage
 	}
 
 }

@@ -10,5 +10,9 @@ public class Passwords {
 		logininfo.put( "Pegasus", "wings" );
 		logininfo.put( "Alicorn", "horn&wings" );
 	}
+	
+	protected HashMap getlogininfo() { //method for logininfo, returns HashMap
+		return logininfo;
+	}
 
 }
