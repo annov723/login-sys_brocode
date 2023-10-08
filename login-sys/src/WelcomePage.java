@@ -8,10 +8,11 @@ public class WelcomePage {
 	JFrame frame = new JFrame();
 	JLabel wl = new JLabel( "Hello!" );
 	
-	WelcomePage(){
+	WelcomePage( String uidS ){
 		
 		wl.setBounds( 0, 0, 200, 35 );
 		wl.setFont( new Font( null, Font.PLAIN, 25 ) );
+		wl.setText( "Hello " + uidS );
 		
 		frame.add( wl );
 		
